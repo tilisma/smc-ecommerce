@@ -7,8 +7,9 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function home()
-    {
-        return view('welcome');
+    {   
+        $name = "Tilisma";
+        return view('welcome',compact('name'));
     }
 
     public function about()
