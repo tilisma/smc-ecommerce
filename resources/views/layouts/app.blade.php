@@ -33,6 +33,11 @@
                 <a href="" class="block px-2 py-3 text-lg font-bold border-l-4 border-transparent m-2 transition-border duration-300 ease-in-out hover:border-blue-600 hover:bg-gray-300">Logout</a>
             </div>
                 </div>
+
+                <div class="p-4 flex-1">
+                    @yield('content')
+
+                </div>
             </div>
             
     </body>
