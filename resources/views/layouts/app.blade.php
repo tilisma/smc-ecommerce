@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -20,9 +21,9 @@
                     <img src="https://smc.edu.np/wp-content/uploads/2023/11/smc-logo-circle.png" class="w-8/12 mx-auto mt-5" alt="">
 
                 <div class ="mt-5">
-                <a href="" class="block px-2 py-3 text-lg font-bold border-l-4 border-transparent m-2 transition-border duration-300 ease-in-out hover:border-blue-600 hover:bg-gray-300">Dashboard</a>
+                <a  href="{{route('dashboard')}}" class="block px-2 py-3 text-lg font-bold border-l-4 border-transparent m-2 transition-border duration-300 ease-in-out hover:border-blue-600 hover:bg-gray-300">Dashboard</a>
 
-                <a href="" class="block px-2 py-3 text-lg font-bold border-l-4 border-transparent m-2 transition-border duration-300 ease-in-out hover:border-blue-600 hover:bg-gray-300">Category</a>
+                <a href="{{route('category.index')}}" class="block px-2 py-3 text-lg font-bold border-l-4 border-transparent m-2 transition-border duration-300 ease-in-out hover:border-blue-600 hover:bg-gray-300">Category</a>
 
                 <a href="" class="block px-2 py-3 text-lg font-bold border-l-4 border-transparent m-2 transition-border duration-300 ease-in-out hover:border-blue-600 hover:bg-gray-300">Products</a>
 
