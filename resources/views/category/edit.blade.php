@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<h2 class="font-bold text-3xl text-blue-800">Create Category</h2>
+<h2 class="font-bold text-3xl text-blue-800">Edit Category</h2>
 <hr class="h-1 bg-red-600">
 
 <form action="{{route('category.store')}}" method="post" class="mt-5">
