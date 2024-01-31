@@ -18,7 +18,7 @@
     </div>
     @enderror
 <div class="flex justify-center">
-<input type="Submit" value="Add Category" class="bg-blue-600 text-white px-2 py-1 rounded mx-2">
+<input type="Submit" value="Update Category" class="bg-blue-600 text-white px-2 py-1 rounded mx-2">
 <a href="{{ route('category.index') }}"class="bg-red-600 text-white px-12 py-1 rounded mx-2">Exit</a>
 
 </div>
