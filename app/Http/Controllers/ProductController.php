@@ -6,31 +6,28 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index()
+    public function index ()
+    {
+return view('product.index');
+    }
+    public function create () 
+    {
+return view('product.create');
+    } 
+    public function store (Request $request)
     {
 
     }
-
-    public function create()
+    public function edit ($id)
     {
-
-    }
-
-    public function store(Request $request,$id)
-    {
-
-    }
-    public function edit($id){
 
     } 
-
-    public function update(Request $request,$id )
+    public function update(Request $request, $id)
     {
 
     }
-
-    public function delete($id)
+    public function delete ($id)
     {
-        
+
     }
 }
