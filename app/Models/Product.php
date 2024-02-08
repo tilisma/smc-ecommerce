@@ -16,5 +16,8 @@ class Product extends Model
         'status',
         'category_id',
         'photopath',
-    ];
+    ]; 
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
 }
