@@ -18,11 +18,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+
 Route::get('/', [PagesController::class, 'home']);
     
 Route::get('/about', [PagesController::class, 'about']);
 
 Route::get('/contact', [PagesController::class, 'contact']);
+
+Route::get('/viewproduct', [PagesController::class, 'viewproduct']); 
 
 Route::middleware('auth')->group(function(){
     Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
